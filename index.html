@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <input class="search-input" type="text" onkeypress="handleKeyPress(event)" placeholder="city, countrycode">
+        <div class="loading-animation">
+            <img class="loading-icon" src="images/loading.gif" alt="loading-animation">
+        </div>
+    </div>
+
+   <div class="main-container">
+    <div class="weather-info">
+        <div class="weather-logo">
+            <img id="weather-logo" class="weather-condition-image" src="images/01d.png" alt="weather-condition-image">
+        </div>
+
+        <div class="weather-heading">
+            <p class="weather-temp">18°C</p>
+        </div>
+
+        <div class="weather-description">
+            Heavy Rain
+        </div>
+
+        <div class="temp-heading">
+            <div class="feels-like-heading">Feels like</div>
+            <div class="humidity-heading">Humidity</div>
+        </div>
+
+        <div class="temp-details">
+            <div class="feels-like">31.14°C</div>
+            <div class="humidity">18</div>
+        </div>
+
+        <div class="sun-timing-heading">
+            <div class="sunrise-heading">
+                <img class="sunrise-img" src="images/sunrise.png" alt="">
+                Sunrise
+            </div>
+            <div class="sunset-heading">
+                <img src="images/sunset.png" alt="" class="sunset-img">
+                Sunset
+            </div>
+        </div>
+
+        <div class="sun-timing">
+            <div class="sunrise-time">
+                7:34
+            </div>
+            <div class="sunset-time">
+                6:30
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="error-display">
+        <span class="error-text">Oh no! City not found....</span>
+       </div>
+   </div>
+
+   
+    
+    <script src="script.js"></script>
+</body>
+</html>
