@@ -1,1 +1,1 @@
-![Screenshot]([https://github.com/your-username/your-repository/blob/main/screenshots/screenshot.png](https://github.com/BigBrar/Beautiful-weather-web/blob/main/Screenshot%202024-03-16%20155140.png)https://github.com/BigBrar/Beautiful-weather-web/blob/main/Screenshot%202024-03-16%20155140.png)
+![Screenshot](https://raw.githubusercontent.com/BigBrar/Beautiful-weather-web/main/Screenshot%202024-03-16%20155140.png)
