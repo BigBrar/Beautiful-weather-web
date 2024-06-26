@@ -14,7 +14,7 @@ function getWeather(){
     document.querySelector('.loading-animation').style.display = 'block';
     document.querySelector('.weather-condition-image').classList.remove('animate-grow');
     const user_input = document.querySelector('.search-input').value
-    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${user_input},uk&APPID=`) //Don't forget to enter your api key...
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${user_input},uk&APPID=100ddd30d0a11316846cd43096829ee2`) //Don't forget to enter your api key...
   .then(response => response.json())
   .then((json) => {
     document.querySelector('.weather-condition-image').classList.remove('animate-grow');
